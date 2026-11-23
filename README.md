@@ -14,22 +14,13 @@
 - **Prerequisites:** Python 3.9+
 - **Installation and Usage:** Open Powershell and Follow these steps
 
-```bash
+```text
 git clone https://github.com/ahmedtaha808/FCIS_AudioEventDetection.git
 cd AudioEventDetection
 pip install -r requirements.txt
 python main.py
 ```
 
-## Repository Structure
-
-AudioEventDetection/
-├── Dataset/             # Labeled training and unseen test .wav audio recordings
-├── Documentations/      # Project reference documents
-├── Src/                 # Core DSP feature extraction and GUI modules
-├── main.py              # Main entry point to launch the application
-├── requirements.txt     # Python dependencies for the project
-└── README.md
 
 ## The Idea
 
@@ -42,16 +33,17 @@ The system analyzes audio recordings and identifies events such as glass breakin
 
 ## Dataset
 
-- Dataset Sources
+- **Dataset Sources:**
   - [Kaggle - AASP](https://www.kaggle.com/competitions/sound-event-classification/data)
   - [Github - ESC-50](https://github.com/karolpiczak/ESC-50)
-- For training a collection of labeled audio recordings(.wav files) containing the following events:
+  - [freesound.org](https://freesound.org/)
+- **For training:** a collection of labeled audio recordings(.wav files) containing the following events:
   - Glass breaking
   - Door knocking
   - Footsteps
   - Door slamming
   - Smoke alarm
-- For testing Unseen recordings
+- **For testing:** Unseen recordings
 - Dataset Structure:
 
 ```text
@@ -121,7 +113,7 @@ recognition operations yourself.
 - Quality and correctness of the DSP implementation.
 - Processing speed and computational efficiency.
 
-## Feature Extraction Methods
+## DSP Features Extraction Methods
 
 
 
